@@ -2987,10 +2987,11 @@
         })("29"),
         (function (e) {
           var t = document.querySelectorAll(".confirmRaceList");
+          // console.log("e: ", e);
           e &&
             t.forEach(function (t) {
               t.innerText =
-                e.slice(0, -1).join(", ") + ", and " + e[e.length - 1];
+                e.slice(0, 2).join(", ") + ", and " + e[e.length - 1];
             });
         })(m),
         (function (e) {
@@ -3038,7 +3039,7 @@
               t.innerText = e;
             });
         })(
-          "The Missouri Cancer Registry (MCR) operates as a statewide cancer surveillance system dedicated to preventing cancer and reducing its burden among Missouri residents. MCR contributes to cancer research by collecting demographic, tumor, and treatment data on over 37,000 new invasive cancer cases annually, with a database spanning nearly 1.4 million cases diagnosed from 1996 to 2020, plus historical data from before 1996.\nMCR provides valuable information and educational resources to healthcare professionals, researchers, and the public. The data is also shared with national and international organizations, including the CDC and the International Association of Cancer Registries, to enhance global cancer research efforts. Through linkages with databases like Missouri Vital Records and the National Death Index, MCR ensures comprehensive reporting, supporting its mission to improve health outcomes for Missourians."
+          "The Missouri Cancer Registry (MCR) operates as a statewide cancer surveillance system dedicated to preventing cancer and reducing its burden among Missouri residents. MCR contributes to cancer research by collecting demographic, tumor, and treatment data on over 37,000 new invasive cancer cases annually, with a database spanning over 1.5 million cases diagnosed from 1996 to 2022, plus historical data from before 1996.\nMCR provides valuable information and educational resources to healthcare professionals, researchers, and the public. The data is also shared with national and international organizations, including the CDC and the International Association of Cancer Registries, to enhance global cancer research efforts. Through linkages with databases like Missouri Vital Records and the National Death Index, MCR ensures comprehensive reporting, supporting its mission to improve health outcomes for Missourians."
         ),
         (function (e) {
           var t = document.querySelectorAll(".incidenceDateDate");
