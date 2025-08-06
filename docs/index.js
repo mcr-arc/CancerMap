@@ -2018,6 +2018,8 @@
     O = {};
   function U() {
     H(!1), r.addressmarker.setLatLng([0, 0]).removeFrom(r);
+    console.log("a: ", a);
+
     var e = $(
         'div.data-filters input[type="text"], div.data-filters select'
       ).filter('[name="address"]'),
@@ -2030,6 +2032,7 @@
     ) {
       var o = a.address.match(/^\s*((A|B)\d\d\d\d)\s*$/),
         i = a.address.match(/\(((A|B)\d\d\d\d)\)/);
+
       if (o || i) {
         var l =
           ((n = o ? o[1] : i[1]),
@@ -2807,6 +2810,7 @@
         race: t.filter('[name="race"]').val(),
         time: t.filter('[name="time"]').val(),
       };
+    console.log("n: ", n);
     return (
       e &&
         ((n.overlays = r.layerpicker
@@ -3437,7 +3441,8 @@
                 t.val("").change();
               }
             });
-        })("1095 Hospital Drive, Columbia, MO 65211"),
+        })("38.66219,-92.76306"),
+        // ("1095 Hospital Drive, Columbia, MO 65211"),
         $("i[data-tooltip]").each(function () {
           var e = $(this),
             t = $(this).attr("data-tooltip");
