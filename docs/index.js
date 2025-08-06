@@ -2018,7 +2018,6 @@
     O = {};
   function U() {
     H(!1), r.addressmarker.setLatLng([0, 0]).removeFrom(r);
-    console.log("a: ", a);
 
     var e = $(
         'div.data-filters input[type="text"], div.data-filters select'
@@ -2810,7 +2809,7 @@
         race: t.filter('[name="race"]').val(),
         time: t.filter('[name="time"]').val(),
       };
-    console.log("n: ", n);
+
     return (
       e &&
         ((n.overlays = r.layerpicker
