@@ -1989,12 +1989,12 @@
         label: "Base Map",
         checked: !0,
         layer: L.tileLayer(
-          "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
+          "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png?key=cb1_4mlo_1_a424017debe7f21f39cf6fdc",
           {
             pane: "tilePane",
             zIndex: 0,
             attribution:
-              'Map tiles by <a target="_blank" href="http://www.mapbox.com">MapBox</a>.<br />Data &copy; <a target="_blank" href="http://openstreetmap.org/copyright" target="_blank">OpenStreetMap contributings</a>',
+              '&copy; <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a target="_blank" href="https://carto.com/attributions">CARTO</a>',
           }
         ),
       },
@@ -2003,12 +2003,12 @@
         label: "Labels",
         checked: !0,
         layer: L.tileLayer(
-          "https://{s}.basemaps.cartocdn.com/rastertiles/light_only_labels/{z}/{x}/{y}{r}.png",
+          "https://{s}.basemaps.cartocdn.com/rastertiles/light_only_labels/{z}/{x}/{y}{r}.png?key=cb1_4mlo_1_a424017debe7f21f39cf6fdc",
           {
             pane: "popupPane",
             zIndex: 999,
             attribution:
-              'Map tiles by <a target="_blank" href="http://www.mapbox.com">MapBox</a>.<br />Data &copy; <a target="_blank" href="http://openstreetmap.org/copyright" target="_blank">OpenStreetMap contributings</a>',
+              '&copy; <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a target="_blank" href="https://carto.com/attributions">CARTO</a>',
           }
         ),
       },
